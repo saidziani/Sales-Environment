@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AgentProject.productsListController">
+   <children>
+      <Hyperlink fx:id="link" layoutX="44.0" layoutY="352.0" text="Ajouter un produit" />
+      <Label fx:id="myLabel" layoutX="44.0" layoutY="21.0" style="-fx-font-size: 20;" text="Mes produits" />
+      <ListView fx:id="table" layoutX="46.0" layoutY="58.0" prefHeight="262.0" prefWidth="513.0" />
+      <Button fx:id="deco" layoutX="457.0" layoutY="21.0" mnemonicParsing="false" onAction="#onActionHandlerDeco" text="Déconnecter" />
+   </children>
+</AnchorPane>

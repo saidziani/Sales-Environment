@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AgentProject.creatAccountController">
+   <children>
+      <Label layoutX="21.0" layoutY="14.0" prefHeight="34.0" prefWidth="223.0" style="-fx-font-size: 20;" text="Création de compte" />
+      <Label layoutX="179.0" layoutY="78.0" text="Nom" />
+      <Label layoutX="179.0" layoutY="142.0" text="Prénom" />
+      <Label layoutX="179.0" layoutY="206.0" text="Mot de passe" />
+      <TextField fx:id="name" layoutX="179.0" layoutY="98.0" prefHeight="25.0" prefWidth="253.0" />
+      <PasswordField fx:id="mdp" layoutX="179.0" layoutY="225.0" prefHeight="25.0" prefWidth="253.0" />
+      <Button fx:id="valider" layoutX="180.0" layoutY="353.0" mnemonicParsing="false" onAction="#onActionHandler" prefHeight="25.0" prefWidth="99.0" text="Valider" />
+      <TextField fx:id="fname" layoutX="179.0" layoutY="161.0" prefHeight="25.0" prefWidth="253.0" />
+      <ComboBox fx:id="role" layoutX="180.0" layoutY="288.0" prefWidth="150.0" />
+      <Label layoutX="181.0" layoutY="267.0" text="Role" />
+      <Button fx:id="deco" layoutX="483.0" layoutY="17.0" mnemonicParsing="false" onAction="#onActionHandlerDeco" text="Déconnecter" />
+   </children>
+</AnchorPane>

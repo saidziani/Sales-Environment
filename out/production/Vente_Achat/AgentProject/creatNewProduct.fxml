@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AgentProject.creatNewProduct">
+   <children>
+      <Label layoutX="21.0" layoutY="40.0" style="-fx-font-size: 20;" text="Création d'un nouveau produit" />
+      <TextField fx:id="design" layoutX="161.0" layoutY="108.0" prefHeight="25.0" prefWidth="227.0" />
+      <TextField fx:id="prix" layoutX="160.0" layoutY="175.0" prefHeight="25.0" prefWidth="227.0" />
+      <Label layoutX="161.0" layoutY="86.0" text="Désignation" />
+      <Label layoutX="160.0" layoutY="154.0" text="Prix" />
+      <Label layoutX="160.0" layoutY="223.0" text="Qualité" />
+      <Button fx:id="valider" layoutX="160.0" layoutY="368.0" mnemonicParsing="false" onAction="#onActionHandler" text="Valider" />
+      <ComboBox fx:id="qualite" layoutX="160.0" layoutY="246.0" prefHeight="25.0" prefWidth="227.0" />
+      <TextField fx:id="livraison" layoutX="161.0" layoutY="322.0" prefHeight="25.0" prefWidth="227.0" />
+      <Label layoutX="162.0" layoutY="299.0" text="Frais de livraison" />
+   </children>
+</AnchorPane>
